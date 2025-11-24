@@ -39,7 +39,7 @@ const Values = () => {
     <div className="min-h-screen">
       <div className="max-w-5xl mx-auto px-6 py-16">
         <Link to="/">
-          <Button variant="ghost" className="mb-8 hover:text-hot-pink">
+          <Button variant="ghost" className="mb-8">
             ← Back to Home
           </Button>
         </Link>

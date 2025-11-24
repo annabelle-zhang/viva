@@ -17,7 +17,7 @@ const DesignedAroundYou = () => {
           Designed Around You
         </h2>
         
-        <div className="space-y-8 text-lg md:text-xl leading-relaxed text-muted-foreground mb-16">
+        <div className="space-y-8 text-lg text-center md:text-xl leading-relaxed text-muted-foreground mb-16">
           <p>
             At VIVA, our learners are the heroes. Every update begins with a single question:
           </p>

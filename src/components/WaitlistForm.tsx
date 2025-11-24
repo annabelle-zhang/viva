@@ -83,6 +83,7 @@ const WaitlistForm = () => {
             <Label htmlFor="experience" className="text-lg">Experience Level</Label>
             <Select value={formData.experienceLevel} onValueChange={(value) => setFormData({ ...formData, experienceLevel: value })} required>
               <SelectTrigger className="!bg-zinc-800 rounded-none !text-zinc-100 [&>span]:!text-white">
+                <SelectValue placeholder="" />
               </SelectTrigger>
               <SelectContent className="bg-zinc-800 border-zinc-700">
                 <SelectItem value="beginner">Beginner</SelectItem>
@@ -137,6 +138,7 @@ const WaitlistForm = () => {
             <Label htmlFor="learning" className="text-lg">Learning Style</Label>
             <Select value={formData.learningStyle} onValueChange={(value) => setFormData({ ...formData, learningStyle: value })} required>
               <SelectTrigger className="bg-zinc-800 rounded-none text-zinc-100 [&>span]:text-white">
+                <SelectValue placeholder="" />
               </SelectTrigger>
               <SelectContent className="bg-zinc-800 border-zinc-700">
                 <SelectItem value="auditory">Auditory - Learn by ear, remember melodies easily, prefer listening over reading music</SelectItem>
@@ -186,7 +188,7 @@ const WaitlistForm = () => {
           </Button>
         </form>
         <br></br>
-        <p className="text-xl text-center text-muted-foreground mb-12">
+        <p className="text-s text-center text-muted-foreground mb-12">
           By clicking "Submit" I agree to share the provided information with VIVA to be contacted with more details or offers about VIVA products.
         </p>
       </div>
